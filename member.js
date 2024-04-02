@@ -1,9 +1,3 @@
-function skillMembers() {
-    var members = [
-        {name: 'John', age: 25},
-        {name: 'Jane', age: 22},
-        {name: 'Doe', age: 30}
-    ];
-
-    return members;
+function skillsMember() {
+  console.log('I am a member of the team')
 }
