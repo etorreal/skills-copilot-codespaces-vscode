@@ -1,14 +1,9 @@
 function skillMembers() {
     var members = [
-        { name: 'John', skill: 'JavaScript' },
-        { name: 'Jane', skill: 'JavaScript' },
-        { name: 'Doe', skill: 'JavaScript' },
-        { name: 'Smith', skill: 'JavaScript' }
+        {name: 'John', age: 25},
+        {name: 'Jane', age: 22},
+        {name: 'Doe', age: 30}
     ];
 
-    var result = members.filter(function(member) {
-        return member.skill === 'JavaScript';
-    });
-
-    console.log(result);
+    return members;
 }
